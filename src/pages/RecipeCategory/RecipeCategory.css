@@ -1,0 +1,33 @@
+.recipe-category-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.recipe-category-title {
+    color: #96BB36;
+    font-size: 27px;
+    font-family: cursive;
+}
+
+.recipe-category-container-line {
+    width: 100%;
+    border: 1px solid #EFEEEA;
+    margin-left: 10px;
+}
+
+.recipe-category-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+    justify-content: flex-start;
+    gap: 5%;
+}
+
+.recipe-category-list-item {
+    margin: '0 5px';
+    flex-basis: 30%;
+    margin-bottom: 20px;
+}

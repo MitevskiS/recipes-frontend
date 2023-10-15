@@ -1,0 +1,29 @@
+.my-recipes-create-icon {
+    background: orange;
+    padding: 1px 3px;
+    border-radius: 50%;
+}
+
+.my-recipes-table {
+    width: 100%;
+}
+
+.my-recipes-table th {
+    text-align: left;
+    color: orange;
+    font-family: cursive;
+}
+
+.my-recipes-table tbody tr {
+    background: white;
+}
+
+.my-recipes-table tbody td {
+    padding: 10px;
+    color: grey;
+    font-family: cursive;
+}
+
+.my-recipes-table-delete:hover {
+    cursor: pointer;
+}

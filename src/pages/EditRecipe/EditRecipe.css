@@ -1,0 +1,36 @@
+.edit-recipe-button {
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: Arial;
+    padding: 5px 15px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 10px;
+    width: 50%;
+}
+
+.edit-recipe-button-submit {
+    background: #96BB36;
+    color: white;
+    border: 2px solid #96BB36;
+}
+
+.edit-recipe-button-submit:hover {
+    background: #678125;
+    color: white;
+    border: 2px solid #678125;
+}
+
+.edit-recipe-upload-image-button {
+    background: transparent;
+    color: #D9D8D5;
+    border: 2px solid #D9D8D5;
+    width: 100%;
+}
+
+.edit-recipe-back-icon {
+    background: orange;
+    padding: 1px 3px;
+    border-radius: 50%;
+}
