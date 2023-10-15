@@ -1,0 +1,44 @@
+.account-button {
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: Arial;
+    padding: 5px 15px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 10px;
+    width: 50%;
+}
+
+.save-account-button {
+    background: #96BB36;
+    color: white;
+    border: 2px solid #96BB36;
+}
+
+.save-account-button:hover {
+    background: #678125;
+    color: white;
+    border: 2px solid #678125;
+}
+
+.save-account-button-disabled {
+    background: grey;
+    color: white;
+    border: 2px solid grey;
+    cursor: not-allowed;
+    pointer-events: all !important;
+}
+
+.save-account-button-disabled:hover {
+    background: grey;
+    color: white;
+    border: 2px solid grey;
+}
+
+.account-change-avatar-button {
+    background: transparent;
+    color: #D9D8D5;
+    border: 2px solid #D9D8D5;
+    width: 100%;
+}

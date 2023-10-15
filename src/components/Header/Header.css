@@ -1,0 +1,85 @@
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 250px;
+    margin-top: 30px;
+}
+
+.header-link {
+    color: grey;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: fantasy;
+}
+
+.header-link:hover {
+    color: orange;
+}
+
+.header-link::after {
+    content: "•";
+    color: orange;
+    margin: 0 15px;
+}
+
+.header-link:last-child::after {
+    content: "";
+    margin: 0;
+}
+
+.header-link-user {
+    color: grey;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: fantasy;
+}
+
+.header-link-user:hover {
+    color: orange;
+}
+
+.header-link-user::after {
+    content: "•";
+    color: grey;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.header-link-user:last-child::after {
+    content: "";
+    margin: 0;
+}
+
+.header-button {
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: Arial;
+    padding: 5px 15px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.header-button-login {
+    background: transparent;
+    color: grey;
+    border: 2px solid grey;
+}
+
+.header-button-login:hover {
+    background: grey;
+    color: white;
+}
+
+.header-button-create-account {
+    background: #96BB36;
+    color: white;
+    border: 2px solid #96BB36;
+}
+
+.header-button-create-account:hover {
+    background: #678125;
+    color: white;
+    border: 2px solid #678125;
+}
